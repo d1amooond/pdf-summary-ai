@@ -2,6 +2,11 @@
 
 A web application that allows users to upload PDF documents and receive AI-generated summaries using OpenAI's API.
 
+![Alt text](/public/demo.png?raw=true "Optional Title")
+
+## DEMO
+[Click here to view demo](https://pdf-summary-ai-alpha.vercel.app/)
+
 ## Features
 
 - 📄 PDF Upload: Upload PDF files for processing
@@ -87,7 +92,7 @@ This project follows clean architecture principles and SOLID design patterns:
 - **Components**: Presentational logic with separation of concerns
 - **Hooks**: Shared stateful logic
 - **Types**: TypeScript interfaces for type safety
-- **API Routes**: Next.js 14 app router for backend logic
+- **API Routes**: Next.js 15 app router for backend logic
 
 ## Structure
 - **app**: All logic related to pages and api
@@ -109,7 +114,7 @@ This project follows clean architecture principles and SOLID design patterns:
    - **storage**: Types for storage
    - **summary**: Summary response
    - **upload**: Upload response
--- **tests**: Unit testing
+-  **tests**: Unit testing
 
 ## Technologies
 
